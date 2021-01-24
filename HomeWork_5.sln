@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_1", "Task_1", "{F5988363-2C41-400A-834D-1C60EF449CE3}"
+	ProjectSection(SolutionItems) = preProject
+		Task_1\create_db.sql = Task_1\create_db.sql
+		Task_1\create_sp_insert_note.sql = Task_1\create_sp_insert_note.sql
+		Task_1\create_sp_insert_user.sql = Task_1\create_sp_insert_user.sql
+		Task_1\create_sp_select_note.sql = Task_1\create_sp_select_note.sql
+		Task_1\create_sp_select_user_notes.sql = Task_1\create_sp_select_user_notes.sql
+		Task_1\create_sp_select_users_notes_count.sql = Task_1\create_sp_select_users_notes_count.sql
+		Task_1\create_sp_update_note_mark_deleted.sql = Task_1\create_sp_update_note_mark_deleted.sql
+		Task_1\create_table_notes.sql = Task_1\create_table_notes.sql
+		Task_1\create_table_users.sql = Task_1\create_table_users.sql
+		Task_1\test.sql = Task_1\test.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_2", "Task_2", "{873CF72D-6036-4322-A83F-82738A6860BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Services", "Task_2\NotesApp.Services\NotesApp.Services.csproj", "{73356300-4771-4D73-BB33-756873BA7105}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Tools", "Task_2\NotesApp.Tools\NotesApp.Tools.csproj", "{7792C793-D801-43BC-810C-6EC3E66AB14B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73356300-4771-4D73-BB33-756873BA7105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73356300-4771-4D73-BB33-756873BA7105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73356300-4771-4D73-BB33-756873BA7105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73356300-4771-4D73-BB33-756873BA7105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7792C793-D801-43BC-810C-6EC3E66AB14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7792C793-D801-43BC-810C-6EC3E66AB14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7792C793-D801-43BC-810C-6EC3E66AB14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7792C793-D801-43BC-810C-6EC3E66AB14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73356300-4771-4D73-BB33-756873BA7105} = {873CF72D-6036-4322-A83F-82738A6860BE}
+		{7792C793-D801-43BC-810C-6EC3E66AB14B} = {873CF72D-6036-4322-A83F-82738A6860BE}
+		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA} = {873CF72D-6036-4322-A83F-82738A6860BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD182CA9-FD67-4CD3-84E4-CBED51861786}
+	EndGlobalSection
+EndGlobal
