@@ -5,8 +5,7 @@ AS
     begin
         return QUERY
             SELECT users.id, users.first_name,users.last_name,COUNT(notes.id)
-            from users left join notes  on users.id = notes.user_id
-            where notes.is_deleted =false
+            from users left join notes  on users.id = notes.user_id and notes.is_deleted =false
             GROUP BY users.id;
     end
     $$

@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Task_2\NotesApp.Services\NotesApp.Services.csproj" />
-    <ProjectReference Include="..\Task_2\NotesApp.Tools\NotesApp.Tools.csproj" />
+    <ProjectReference Include="..\NotesApp.Services\NotesApp.Services.csproj" />
+    <ProjectReference Include="..\NotesApp.Tools\NotesApp.Tools.csproj" />
   </ItemGroup>
 
 </Project>

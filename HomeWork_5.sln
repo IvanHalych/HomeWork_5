@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Services", "Task_2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Tools", "Task_2\NotesApp.Tools\NotesApp.Tools.csproj", "{7792C793-D801-43BC-810C-6EC3E66AB14B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject", "Task_2\XUnitTestProject\XUnitTestProject.csproj", "{2A2C3309-3D41-4A87-9846-66BD49D77A30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,10 @@ Global
 		{7792C793-D801-43BC-810C-6EC3E66AB14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7792C793-D801-43BC-810C-6EC3E66AB14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7792C793-D801-43BC-810C-6EC3E66AB14B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2C3309-3D41-4A87-9846-66BD49D77A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2C3309-3D41-4A87-9846-66BD49D77A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2C3309-3D41-4A87-9846-66BD49D77A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2C3309-3D41-4A87-9846-66BD49D77A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,7 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{73356300-4771-4D73-BB33-756873BA7105} = {873CF72D-6036-4322-A83F-82738A6860BE}
 		{7792C793-D801-43BC-810C-6EC3E66AB14B} = {873CF72D-6036-4322-A83F-82738A6860BE}
-		{7F386AD1-0D0D-41A4-BDB5-B739A9FF3DDA} = {873CF72D-6036-4322-A83F-82738A6860BE}
+		{2A2C3309-3D41-4A87-9846-66BD49D77A30} = {873CF72D-6036-4322-A83F-82738A6860BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD182CA9-FD67-4CD3-84E4-CBED51861786}
