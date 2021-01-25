@@ -38,15 +38,18 @@ namespace XUnitTestProject
             Note note = new Note();
             var storege = new Mock<INotesStorage>();
             var events = new Mock<INoteEvents>();
+            storege.Setup(s => s.AddNote(note, id)).Throws(new Exception());
             var noteService = new NotesService(storege.Object, events.Object);
             try
             {
-                noteService.AddNote(null, id);
+                noteService.AddNote(note, id);
             }
-            catch { }
+            catch (Exception )
+            {
+            }
+            storege.Verify(n => n.AddNote(note, id), Times.Once);
+            events.Verify(n => n.NotifyAdded(note, id), Times.Never);
 
-            storege.Verify(n => n.AddNote(It.IsAny<Note>(), id), Times.Never);
-            events.Verify(n => n.NotifyAdded(It.IsAny<Note>(), id), Times.Never);
         }
         [Fact]
         public void IfDoINotesStorageDeleteNoteThenDoINoteEventsNotifyDeleted()
